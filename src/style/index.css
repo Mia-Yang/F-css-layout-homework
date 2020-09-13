@@ -76,6 +76,10 @@ img {
   margin-bottom: 20px;
 }
 
+.article-text h2 {
+  margin-top: 0;
+}
+
 .article-text a {
   color: rgb(23, 112, 245);
 }
