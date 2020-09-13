@@ -18,3 +18,124 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.top-nav {
+  background-color: rgb(24, 23, 23);
+  color: rgb(179, 176, 176);
+  font-weight: bolder;
+}
+
+.top-nav ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.top-nav li {
+  margin: 20px 0;
+}
+
+main {
+  display: flex;
+  margin: 25px 35px;
+}
+
+.left {
+  width: 17%;
+  justify-content: space-around;
+}
+
+.left-top , .left-bottom {
+  padding: 30px 20px;
+}
+
+.left-top {
+  background-color: rgb(243, 243, 243);
+}
+
+.article-part {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 400px;
+  height: 150px;
+  display: block;
+}
+
+.article-text {
+  width: 400px;
+  padding: 15px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgb(199, 198, 198);
+  border-radius: 0 0 5px 5px;
+  box-shadow:1px 2px 2px 1px rgb(230, 228, 228);
+  margin-bottom: 20px;
+}
+
+.article-text a {
+  color: rgb(23, 112, 245);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  padding: 25px 0;
+}
+
+.login .email, .login .password{
+  height: 50px;
+  width: 200px;
+  border: 1px solid rgb(196, 195, 195);
+  padding-left: 15px;
+}
+
+.login .email {
+  border-bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.login .password {
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 15px;
+}
+
+.sign-in {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(40, 112, 247);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  color: white;
+  margin-top: 15px;
+}
+
+.footer-info {
+  background-color: rgb(238, 236, 236);
+  padding: 30px;
+  text-align: center;
+  color: rgb(153, 155, 155);
+  border-top: 1px rgb(189, 188, 188) solid;
+}
+
+.footer-info p {
+  margin: 0;
+}
+
+
+
+
